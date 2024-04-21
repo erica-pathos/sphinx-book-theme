@@ -15,9 +15,8 @@ pip install -e .
 To use the theme, add to your own `_config.yml`:
 
 ```
-<!---
-# Displaying interactive plotly figures
--->
+
+[comment]: # Displaying interactive plotly figures
 sphinx:
   config:
     html_js_files:
