@@ -23,6 +23,8 @@ sphinx:
     html_theme: sphinx_book_theme
 ```
 
+---
+### Below are original theme info.
 
 **An interactive book theme for Sphinx**.
 
