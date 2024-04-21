@@ -2,6 +2,27 @@
 
 [![codecov][codecov-badge]][codecov-link] [![Documentation Status][rtd-badge]][rtd-link] [![PyPI][pypi-badge]][pypi-link]
 
+## Custom style added
+
+To start with this version of `sphinx-book-theme`, first install it with `pip`:
+
+```
+gh repo clone erica-pathos/sphinx-book-theme
+cd sphinx-book-theme
+pip install -e .
+```
+
+To use the theme, add to your `_config.yml`:
+
+```
+sphinx:
+  config:
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    html_theme: sphinx_book_theme
+```
+
+
 **An interactive book theme for Sphinx**.
 
 This is a lightweight Sphinx theme designed to mimic the look-and-feel of an
