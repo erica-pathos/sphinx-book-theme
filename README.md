@@ -12,9 +12,10 @@ cd sphinx-book-theme
 pip install -e .
 ```
 
-To use the theme, add to your `_config.yml`:
+To use the theme, add to your own `_config.yml`:
 
 ```
+[//]: # Displaying interactive plotly figures
 sphinx:
   config:
     html_js_files:
