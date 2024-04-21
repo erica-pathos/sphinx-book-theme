@@ -24,7 +24,7 @@ sphinx:
 ```
 
 ---
-### Below are original theme info.
+# Below are original theme info.
 
 **An interactive book theme for Sphinx**.
 
