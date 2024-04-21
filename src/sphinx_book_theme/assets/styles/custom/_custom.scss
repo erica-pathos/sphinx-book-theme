@@ -1,0 +1,56 @@
+/* This file intentionally left blank. */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+}
+
+h1, h2, h3 {
+    text-size-adjust: 70%;
+}
+
+/* body * {
+    text-size-adjust: 80%;
+} */
+
+p {
+    font-family: "Mulish", sans-serif;
+    text-size-adjust: 60%
+}
+
+p.title.logo__tile, p.component-author, div.footer-item {
+    font-family: "Mulish", sans-serif;
+}
+
+div.cell_output.docutils.container {
+    /* font-size: 0.7em; */
+    text-size-adjust: 60%;
+}
+
+div.cell_input.docutils.container {
+    /* font-size: 0.7em; */
+    text-size-adjust: 60%;
+}
+
+pre {
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    padding-left: 0.6rem;
+    text-size-adjust: 60%
+}
+
+table {
+    font-size: 0.8em;
+    float: left;
+}
+
+table.dataframe {
+    float: left;
+    font-size: 0.8em;
+}
+
+div.cell_output table {
+    font-size: 0.85em;
+}
